@@ -1,0 +1,86 @@
+Variable            | DECLARE and instantiate a String, unitNumber 
+Declarations        | DECLARE and instantiate a String, unitName 
+                    | DECLARE and instantiate an Array, classList
+                    | DECLARE and instantiate a boolean, studentResult
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    |
+                    |
+                    |
+                    |
+                    |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method              | METHOD: void addStudent
+Implementations     |   // adds a student to the classList array
+                    |   IS there space? (Space variable)
+                    |   FOR LOOP
+                    |   (ensures the amount of students doesn't exceed the max class space)
+                    |       
+                    |   IF space is equal to true, then insert the student
+                    |   IF NOT then show there are not spaces available
+                    | END METHOD
+                    |   
+                    | METHOD: void displayStudents
+                    |   // displays all the students currently in the classList array
+                    |   FOR LOOP
+                    |       (Loop through the arrays indexes, printing them out to the screen)
+                    |       (Also print what UNIT they are doing)
+                    |   END FOR LOOP
+                    | END METHOD
+                    |
+                    | METHOD: void searchStudent
+                    |   // displays a specific student
+                    |   FOR LOOP
+                    |       (loop through every person on the list)
+                    |       IF a match is found
+                    |           OUTPUT the details of the student
+                    |       ELSE 
+                    |           OUTPUT there was no student of that name
+                    |       END ELSE IF
+                    |   END FOR LOOP
+                    | END METHOD
+                    |   
+                    | METHOD: void studentPass
+                    |   // displays students who have passed the unit
+                    |   FOR LOOP
+                    |       (every student on the list)
+                    |       IF a student has passed
+                    |           OUTPUT the student HAS passed
+                    |       ELSE 
+                    |           OUTPUT the student HAS NOT passed
+                    |       END ELSE IF
+                    |   END FOR LOOP
+                    | END METHOD: 
+                    |
+                    | METHOD: void passRate
+                    |   // displays the pass rate for the unit
+                    | . . . .
+                    | END METHOD: 
+                    |
+                    | METHOD: void removeStudent
+                    |  // removes a student from the unit
+                    |  Use ArrayList, classList, to remove a student by the user's choice
+                    | END METHOD:
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

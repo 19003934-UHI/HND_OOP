@@ -1,0 +1,13 @@
+static protected String[] fileContents = {
+		"The",
+		" quick",
+		" brown",
+		" fox",
+		" jumps",
+		" over",
+		" the",
+		" lazy",
+		" dogs",
+		" tail",
+		"."
+	};

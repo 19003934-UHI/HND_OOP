@@ -1,0 +1,25 @@
+.root {-fx-background-image: url("pontoonBackground.jpg"); } 
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0E1D33;
+}
+
+#login-text {
+    -fx-font-size: 32px;
+    -fx-font-familty: "Arial Black";
+    -fx-fill: #115E7F;
+}
+
+#actiontarget {
+    -fx-fill:white;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill:white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61A2B1, #2A5058);
+}
